@@ -15,6 +15,13 @@ cout<<"Masukan angka :";
 
 }
 
+void mPertama(string pesan){
+system("cls");
+cout<<"hallo saya menu "<<pesan;
+getch();
+}
+
+
 int main() {
 char pl;
 do
@@ -25,14 +32,18 @@ do
   {
    case '1':
     /* code */
+    mPertama("pertama");
     break;
    case '2':
-    /* code */
+    mPertama("ke- dua");
+    /* code */ 
     break;  
    case '3':
+    mPertama("ke- tiga");
     /* code */
     break;  
    case '4':
+    mPertama("ke- empat");
     /* code */
     break;  
   case '5':
