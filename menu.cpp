@@ -19,10 +19,33 @@ int main() {
 char pl;
 do
 {
+    dMenu();
+    pl=getch();
+  switch (pl)
+  {
+   case '1':
+    /* code */
+    break;
+   case '2':
+    /* code */
+    break;  
+   case '3':
+    /* code */
+    break;  
+   case '4':
+    /* code */
+    break;  
+  case '5':
+    /* code */
+    break;
+  
+  default:
+    system("cls");
+    cout<<"Pilihan Tidak Tersedia";
+    getch();
+    break;
+  }
 
-dMenu();
-
-pl=getch();
 
 } while (pl!='5');
   return 0;
