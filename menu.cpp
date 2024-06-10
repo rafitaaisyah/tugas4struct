@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 
@@ -15,6 +16,14 @@ cout<<"Masukan angka :";
 }
 
 int main() {
+char pl;
+do
+{
+
 dMenu();
+
+pl=getch();
+
+} while (pl!='5');
   return 0;
 }
